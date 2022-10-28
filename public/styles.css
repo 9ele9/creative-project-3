@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Cram';
+  src: url('/photolab/cormorant_light_macroman.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cram';
+  
+}
+
+.home-menu {
+  /*border: 1px solid #fff; */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   background-color:#f0f0f0;
+   border:5px solid #7a0019;
+   margin:1px;
+}
+
+.title-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    
+}
+
+.title-image{
+    float: left;
+    margin: 5px 20px 30px 20px;
+}
+
+.title-text{
+  margin: auto 20px;
+   text-align: center;
+  
+   display:flex;
+   flex-direction: column;
+}
+
+.title-text p {
+  margin: 10px;
+  color:#383838; 
+  text-align: center;
+  
+  margin: auto;
+}
+
+.title-text h1 {
+  margin: 10px;
+  color:#383838; 
+  
+  margin: auto;
+}
+
+.title-text img{
+  margin:auto 50px;
+}
+
+.title-text button{
+  margin: auto 100px;
+}
+
+.helper-menu{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.helper-tile{
+  padding:20px 70px 20px 70px;
+  margin: 0px 10px 0px 10px;
+  justify-content: center;
+  
+  border:5px solid #7a0019;
+ 
+}
+
+.helper-tile:hover{
+  background-color:#e6e6e6;
+}
+
+.helper-tile img{
+  
+}
+
+.helper-tile p{
+  color:#383838; 
+  text-align: center;
+  margin-top:8px;
+}
+
+.kuller {
+  color:#EAEAEA;
+}
+
+.da-bar {
+  
+  background-color: #7a0019;
+}
+
+.product-menu  {
+  /*border: 1px solid #fff; */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   background-color:#f0f0f0;
+   border:5px solid #7a0019;
+   margin:1px;
+}
+
+.card {
+  margin: 15px;
+  
+}
+
+.infobox {
+  margin: 0px 30px 30px 30px;
+  
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.infobox p {
+  
+  margin: 10px;
+}
+
+.infobox img {
+    float:left;
+    margin: 10px;
+}
+
+.fricc{
+  margin:5px 5px 5px 40px;
+}
+
+.nav-link {
+  color:#383838;
+}
+
+@media only screen and (min-width: 961px) {
+  .helper-menu, .product-menu {
+    flex-direction: row;
+  }
+  
+}
+
+
+
