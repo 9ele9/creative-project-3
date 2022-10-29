@@ -42,8 +42,11 @@ const Home = () => {
     </div>
     
     
+  <div id="footer"><p>https://github.com/BYU-CS-260/lab2-javascript-9ele9</p></div>
+  </div>
   
-  </div>;
+  
+  
 };
 
 export default Home;

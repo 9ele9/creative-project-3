@@ -1,5 +1,6 @@
 const Products = () => {
-  return <div class ="product-menu">
+  return <div>
+  <div class ="product-menu">
         <div class="row">
           
           <div class="col-sm-3">
@@ -92,6 +93,9 @@ const Products = () => {
           
           
         </div>
+        
+      </div>
+      <div id="footer"><p>https://github.com/BYU-CS-260/lab2-javascript-9ele9</p></div>
       </div>
   ;
 };

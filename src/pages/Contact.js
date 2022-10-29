@@ -6,6 +6,7 @@ const Contact = () => {
   <p>You can't know me, I'm unknowable.</p>
   <p>You can contact me though. Here's my phone number: LϞ☆LV-XVΣIƗ</p>
   </div>
+  <div id="footer"><p>https://github.com/BYU-CS-260/lab2-javascript-9ele9</p></div>
   </div>
   ;
 };
