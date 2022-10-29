@@ -42,7 +42,7 @@ const Home = () => {
     </div>
     
     
-  <div id="footer"><p>https://github.com/BYU-CS-260/lab2-javascript-9ele9</p></div>
+  <div id="footer"><p>https://github.com/9ele9/creative-project-3</p></div>
   </div>
   
   
